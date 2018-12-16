@@ -1,0 +1,4 @@
+export GLASSFISH_HOME=/home/theglassfish/glassfish5
+export JAR_FILE_ONE=$GLASSFISH_HOME/glassfish/modules/javax.ejb-api.jar
+javac -classpath ".:$JAR_FILE_ONE" -d . DoorServer.java
+javac -classpath ".:$JAR_FILE_ONE" -d . WindowServer.java
